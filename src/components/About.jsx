@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/aboutme-image.png";
+import AboutImage from "../assets/about-me.jpg";
 
 const About = () => {
   return (
@@ -10,19 +10,18 @@ const About = () => {
           <img
             src={AboutImage}
             alt=""
-            className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
+            className="w-70 h-80 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">
-              I am a passionate full-stack developer with a focus on building
-              modern and responsive web applications. With a strong foundation
-              in both frontend and backend technologies, I strive to create
-              seamless and efficient user experiences.
+              "Passionate full-stack developer focused on modern, responsive web
+              apps. I have a solid foundation in frontend/backend technologies
+              and have solved 450+ DSA problems on LeetCode and GFG."
             </p>
             <div className="space-y-4">
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
-                  HTML & CSS
+                  HTML,CSS & Javascript
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -33,7 +32,40 @@ const About = () => {
               </div>
               <div className="flex items-center">
                 <label htmlFor="htmlandcss" className="w-2/12">
+                  ExpressJs
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-11/12"
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  MongoDB
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-11/12"
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
                   React JS
+                </label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div
+                    className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+                    transform transition-transform duration-300 hover:scale-105 w-11/12"
+                  ></div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">
+                  DSA & Problem Solving
                 </label>
                 <div className="grow bg-gray-800 rounded-full h-2.5">
                   <div
@@ -54,29 +86,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-12 flex justify-between text-center">
-                <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        3+
-                    </h3>
-                    <p>Years Experience</p>
-                </div>
-                <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        50+
-                    </h3>
-                    <p>Projects Completed</p>
-                </div>
-                <div>
-                    <h3 className="text-2xl font-bold text-transparent bg-clip-text 
-                bg-gradient-to-r from-green-400 to-blue-500">
-                        10+
-                    </h3>
-                    <p>Happy Clients</p>
-                </div>
-            </div>
+            <div className="mt-12 flex justify-between text-center"></div>
           </div>
         </div>
       </div>

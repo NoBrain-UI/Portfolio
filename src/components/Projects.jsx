@@ -1,12 +1,12 @@
 import React from "react";
-import employeeMSImage from "../assets/employee-ms.png";
+import employeeMSImage from "../assets/portfolio1.jpg";
 import bookMSImage from "../assets/admin-dashboard.png";
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
+    name: "My Portfolio",
+    technologies: "React+Vite",
     image: employeeMSImage,
     github: "https://github.com/YouafKhan1",
   },

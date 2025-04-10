@@ -3,8 +3,8 @@ import React from "react";
 const services = [
   {
     id: 1,
-    title: "Web Design",
-    description: "Creating visually appealing and user-friendly web designs.",
+    title: "Data Structure and Algorithms",
+    description: "Provides logical thinking",
   },
   {
     id: 2,
@@ -23,13 +23,16 @@ const services = [
   },
   {
     id: 5,
-    title: "Content Writing",
-    description: "Writing content for your business and companies.",
+    title: "Web Design",
+    description: "Creating visually appealing and user-friendly web designs."
+
+,
   },
   {
     id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
+    title: "Deployment & Hosting",
+    description:
+      "Deploying full-stack applications using platforms like Render, Vercel, or Heroku with CI/CD practices.",
   },
 ];
 const Service = () => {
